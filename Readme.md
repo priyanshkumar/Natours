@@ -1,6 +1,6 @@
-# <a href="https://pr-natours.herokuapp.com/"><img src="public/img/logo-green-1x.png" alt="Logo" width="100"/></a>
+# <a href="https://pr-natours.herokuapp.com/"><img src="public/img/logo-green-1x.png" alt="Logo" width="100"/></a> 
 
-#### Natours is a cool project rebuild for learning CSS and Sass concepts.
+#### <a href="https://pr-natours.herokuapp.com/">Natours</a> is a cool project rebuild for learning CSS and Sass concepts.
 
 This is a responsive website built by using pure HTML, CSS, and Sass. I have learned many different concepts and applied to this project.
 
