@@ -907,7 +907,7 @@ body {
   margin-top: -20vh; }
   @media (max-width: 56.25em) {
     .section-about {
-      padding: 23rem; } }
+      padding: 23rem 0; } }
   .section-about__center {
     text-align: center; }
 
