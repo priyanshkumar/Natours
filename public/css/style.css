@@ -63,9 +63,6 @@ body {
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
-  @media (max-width: 56.25em) {
-    .heading-primary {
-      padding: 0 3rem; } }
   .heading-primary--main {
     display: block;
     font-size: 6rem;
@@ -102,10 +99,12 @@ body {
   transition: all .2s; }
   @media (max-width: 56.25em) {
     .heading-secondary {
-      font-size: 3rem; } }
+      font-size: 3rem;
+      padding: 0 3rem; } }
   @media (max-width: 37.5em) {
     .heading-secondary {
-      font-size: 2.5rem; } }
+      font-size: 2.5rem;
+      padding: 0 3rem; } }
   .heading-secondary:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -908,7 +907,7 @@ body {
   margin-top: -20vh; }
   @media (max-width: 56.25em) {
     .section-about {
-      padding: 17rem 0 23rem 0; } }
+      padding: 23rem; } }
   .section-about__center {
     text-align: center; }
 
