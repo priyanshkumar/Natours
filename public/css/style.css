@@ -63,6 +63,9 @@ body {
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
+  @media (max-width: 56.25em) {
+    .heading-primary {
+      padding: 0 3rem; } }
   .heading-primary--main {
     display: block;
     font-size: 6rem;
@@ -137,15 +140,25 @@ body {
 
 .u-margin-top-big {
   margin-top: 8rem !important; }
+  @media (max-width: 56.25em) {
+    .u-margin-top-big {
+      margin-top: 6rem !important; } }
 
 .u-margin-top-huge {
   margin-top: 10rem !important; }
+  @media (max-width: 56.25em) {
+    .u-margin-top-huge {
+      margin-top: 6rem !important; } }
 
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
   height: 52rem; }
+  @media (max-width: 56.25em) {
+    .card {
+      width: 85%;
+      margin: 0 auto; } }
   .card__side {
     height: 52rem;
     transition: all .8s ease;
@@ -272,6 +285,8 @@ body {
   transition: transform .3s; }
   @media (max-width: 56.25em) {
     .feature-box {
+      width: 60%;
+      margin: 0 auto;
       padding: 2rem; } }
   .feature-box__icon {
     font-size: 6rem;
@@ -682,6 +697,12 @@ body {
   opacity: 0;
   width: 0;
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  @media (max-width: 75em) {
+    .navigation__nav {
+      left: -15%; } }
+  @media (max-width: 75em) {
+    .navigation__nav {
+      left: -40%; } }
 
 .navigation__list {
   position: absolute;
@@ -761,10 +782,14 @@ body {
 .row {
   max-width: 114rem;
   margin: 0 auto; }
+  @media (max-width: 75em) {
+    .row {
+      margin: 0 2rem; } }
   @media (max-width: 56.25em) {
     .row {
       max-width: 50rem;
-      padding: 0 3rem; } }
+      padding: 0 3rem;
+      margin: 0 auto; } }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
     @media (max-width: 56.25em) {
@@ -883,7 +908,9 @@ body {
   margin-top: -20vh; }
   @media (max-width: 56.25em) {
     .section-about {
-      padding: 20rem 0; } }
+      padding: 17rem 0 23rem 0; } }
+  .section-about__center {
+    text-align: center; }
 
 .section-features {
   padding: 20rem 0;
@@ -903,14 +930,14 @@ body {
   margin-top: -10rem; }
   @media (max-width: 56.25em) {
     .section-tours {
-      padding: 20rem 0 10rem 0; } }
+      padding: 20rem 0 5rem 0; } }
 
 .section-stories {
   padding: 15rem 0;
   position: relative; }
   @media (max-width: 56.25em) {
     .section-stories {
-      padding: 10rem 0; } }
+      padding: 10rem 0 5rem 0; } }
 
 .section-book {
   padding: 15rem 0;
